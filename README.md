@@ -26,6 +26,6 @@
 
 # Note - 
   Related to application appearence, all the photos of working app are avaiable in the issues     
-  directory as well as the apk file of the application.
+  directory.
 
 
