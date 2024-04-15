@@ -1,25 +1,27 @@
-Namaha
-Namaha is a free, online photo-sharing application and social network platform. It's a Hybrid application
+# Namaha
+  Namaha is a free, online photo-sharing application and social network platform. It's a Hybrid application
 
-Envirnoments
-Front-End - WebStrom
-Back-End - AWS amplify / Mongo DB
-UI Design - Figma
-Important Namaha Terminology
-Username
-Profile
-Piblic Account
-Post
-Story
-Hashtag
-Tagging
-Direct Message
-Explore page
-Follow
-Feed
-Like
-Comment
-Block
-Activity Feed
-SV(ShortVideo)
-Namaha's Feed
+# Envirnoments
+1. Front-End - WebStrom
+2. Back-End - AWS amplify / Mongo DB
+3. UI Design - Figma
+
+# Important Namaha Terminology
+1. Username
+2. Profile
+3. Piblic Account
+4. Post
+5. Story
+6. Hashtag
+7. Tagging
+8. Direct Message
+9. Explore page
+10. Follow
+11. Feed
+12. Like
+13. Comment
+14. Block
+15. Activity Feed
+16. SV(ShortVideo)
+
+# Namaha's Feed
