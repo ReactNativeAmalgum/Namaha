@@ -24,4 +24,8 @@
 15. Activity Feed
 16. SV(ShortVideo)
 
-# Namaha's Feed
+# Namaha's Feeds
+
+1. Home Feed 
+![image](https://github.com/ReactNativeAmalgum/Namaha/assets/137068385/0ac98a97-1248-4c18-aac6-1603b9bc14aa)
+2. 
