@@ -1,20 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import SwitchNavigator from './navigation/LoginNavigation'
+import thunkMiddleware  from 'redux-thunk';
+import reducer from './reducers/index'
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import * as React from 'react';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import AsyncStorage from '@react-native-async-storage/async-storage';
+const middleware = applyMiddleware(thunkMiddleware)
+const store =  createStore(reducer, middleware)
+
+export default class App extends React.Component{
+  render(){
+    return(
+      <Provider store={store}>
+          <SwitchNavigator />
+      </Provider>
+    )
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
